@@ -39,6 +39,9 @@ def main():
     # Display the results
     st.write(f"Number of boards needed: {num_boards}")
     st.write(f"Number of packs needed: {num_packs}")
+    
+    # Display room dimensions
+    st.write(f"Room dimensions: {room_grid.shape[0]}x{room_grid.shape[1]}")
 
 if __name__ == "__main__":
     main()
